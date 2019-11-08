@@ -35,6 +35,7 @@ var blink = function() {
 
 var stop = function() {
     if(blinking) {
+        led.blink('red', { 'delay': 100, 'repeats': 3 });
         blinking = false;
         clearTimeout(blinkTimeout);
         led.setColor(0, 0, 0, options);
