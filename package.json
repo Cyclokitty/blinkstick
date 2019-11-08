@@ -1,0 +1,14 @@
+{
+  "name": "square",
+  "version": "1.0.0",
+  "description": "Using Blinkstick Square with Node.js",
+  "main": "index.js",
+  "author": "Laura Veee",
+  "license": "MIT",
+  "dependencies": {
+    "blinkstick": "1.1.3"
+  },
+  "resolutions": {
+    "usb": "^1.6.0"
+  }
+}
