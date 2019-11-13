@@ -4,7 +4,7 @@ var schedule = require('node-schedule');
 var led = blinkstick.findFirst();
 
 var rule = new schedule.RecurrenceRule();
-rule.minute = 19;
+rule.minute = 12;
 
 var checkTodos = schedule.scheduleJob(rule, function() {
     var time = new Date(Date.now());
